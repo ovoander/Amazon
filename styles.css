@@ -56,3 +56,33 @@ i {
 #cart-button:hover {
     background-color: #4C566A;
 }
+
+#footer {
+    background-color: #3B4252;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 10px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#basketball-button {
+    background-color: #D8DEE9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 4/3;
+    height: 120px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #D8DEE9;
+    text-decoration: none;
+    
+}
+
+#bbpng {
+    max-width: 50%;
+    max-width: 50%;
+}
