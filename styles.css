@@ -1,8 +1,8 @@
 @import url(nord.css);
 
 html {
-    background-color: #2E3440;
-    color: #D8DEE9;
+    background-color: var(--nord0);
+    color: var(--nord4);
     font-family: 'Nunito', sans-serif;
 }
 
@@ -14,7 +14,6 @@ i {
 
 #header {
     background-color: var(--nord1);
-    color: #D8DEE9;
     display: flex;
     align-items: center;
     height: 60px;
@@ -23,7 +22,7 @@ i {
 }
 
 #home-button {
-    color: #D8DEE9;
+    color: var(--nord4);
     text-decoration: none;
     margin-left: 10px;
     font-size: 40px;
@@ -31,7 +30,7 @@ i {
 }
 
 #account-button {
-    color: #D8DEE9;
+    color: var(--nord4);
     text-decoration: none;
     font-size: 20px;
     margin-left: auto;
@@ -42,11 +41,11 @@ i {
 }
 
 #account-button:hover {
-    background-color: #4C566A;
+    background-color: var(--nord3);
 }
 
 #cart-button {
-    color: #D8DEE9;
+    color: var(--nord4);
     text-decoration: none;
     font-size: 20px;
     margin-right: 10px;
@@ -56,13 +55,12 @@ i {
 }
 
 #cart-button:hover {
-    background-color: #4C566A;
+    background-color: var(--nord3);
 }
 
 #footer {
-    background-color: #3B4252;
-    display: flex;
-    align-items: flex-start;
+    background-color: var(--nord1);
+    align-items: center;
     margin-top: 20px;
     padding: 10px;
     height: auto;
@@ -71,7 +69,7 @@ i {
 }
 
 #basketball-button {
-    background-color: #D8DEE9;
+    background-color: var(--nord4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,10 +77,11 @@ i {
     height: 240px;
     border-radius: 10px;
     margin: 10px;
-    color: #D8DEE9;
+    color: var(--nord8);
     text-decoration: none;
+    transition: ease-out 150ms border;
 }
 
 #basketball-png {
-    max-width: 160px;
+    max-height: 160px;
 }
