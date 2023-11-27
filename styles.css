@@ -1,0 +1,23 @@
+html {
+    background-color: #2E3440;
+    color: #D8DEE9;
+    font-family: 'Nunito', sans-serif;
+}
+
+#header {
+    background-color: #4C566A;
+    color: #D8DEE9;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#home-button {
+    color: #D8DEE9;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 900;
+}
