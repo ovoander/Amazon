@@ -4,8 +4,14 @@ html {
     font-family: 'Nunito', sans-serif;
 }
 
+i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #header {
-    background-color: #4C566A;
+    background-color: #3B4252;
     color: #D8DEE9;
     display: flex;
     align-items: center;
@@ -20,4 +26,33 @@ html {
     margin-left: 10px;
     font-size: 40px;
     font-weight: 900;
+}
+
+#account-button {
+    color: #D8DEE9;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 150ms ease-out background-color;
+}
+
+#account-button:hover {
+    background-color: #4C566A;
+}
+
+#cart-button {
+    color: #D8DEE9;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 150ms ease-out background-color;
+}
+
+#cart-button:hover {
+    background-color: #4C566A;
 }
