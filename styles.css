@@ -1,3 +1,5 @@
+@import url(nord.css);
+
 html {
     background-color: #2E3440;
     color: #D8DEE9;
@@ -11,7 +13,7 @@ i {
 }
 
 #header {
-    background-color: #3B4252;
+    background-color: var(--nord1);
     color: #D8DEE9;
     display: flex;
     align-items: center;
@@ -79,10 +81,8 @@ i {
     margin: 10px;
     color: #D8DEE9;
     text-decoration: none;
-    
 }
 
-#bbpng {
-    max-width: 50%;
-    max-width: 50%;
+#basketball-png {
+    max-width: 160px;
 }
