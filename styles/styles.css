@@ -58,7 +58,7 @@ i {
     background-color: var(--nord3);
 }
 
-#footer {
+#content {
     background-color: var(--nord1);
     align-items: center;
     margin-top: 20px;
